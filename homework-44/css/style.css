@@ -1,0 +1,21 @@
+.one {
+    background-color: rgb(197, 179, 145);
+    display: inline-block;
+    width: 200px;
+    padding: 20px 30px;
+    border-radius: 30px;
+    text-align: left;
+    box-shadow:inset .5px .5px 6px;
+    margin: 10px 5px;
+}
+section {
+    border: solid 1px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 1250px;
+    overflow: auto;
+    height: 510px;
+}
+/* * {
+    box-sizing: border-box;
+} */
