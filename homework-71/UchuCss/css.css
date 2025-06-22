@@ -1,0 +1,31 @@
+.body {
+    background: rgb(50, 50, 50);
+    color: #fff;
+}
+.title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 500%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -50px;
+}
+.title::before {
+    content: '';
+    display: block;
+    height: 100px;
+    width: 100px;
+    background: rgb(220, 88, 88);
+    border-radius: 50%;
+    border: #fff 5px solid;
+    transform: translate(600px, 95px);
+}
+.title::after {
+    content: '';
+    display: block;
+    height: 100px;
+    width: 100px;
+    background: rgb(95, 105, 219);
+    border-radius: 50%;
+    border: #fff 5px solid;
+    transform: translate(1200px, -95px);
+}
