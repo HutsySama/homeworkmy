@@ -47,10 +47,8 @@ body {
     right: 600px;
     transition: right 2s;
 }
-span {
-    opacity: 0;
-    transition:opacity 1.3s;
-    transition-timing-function: step-end;
+.box:hover span {
+    transition-delay: 2s;
 }
 .box:hover span {
     opacity: 1;
