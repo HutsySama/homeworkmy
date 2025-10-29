@@ -1,8 +1,9 @@
 :root {
-    ---second-family: 'NAMU Pro';
-    ---base-color: #111;
-    ---two-color: #000;
-    ---white: #fff;
+    --second-family: 'NAMU Pro', sans-serif;
+    --base-color: #111;
+    --two-color: #000;
+    --white: #fff;
+    --pink: #c5358c;
 }
 
 
@@ -10,8 +11,11 @@
     font-family: "Open Sans", "Arial", sans-serif;
     font-size: 18px;
     font-weight: 400;
-    color: var(--general-text);
-    background: var(--general-bg);
+    color: var(--base-color);
+    background: var(--white);
+}
+.body--opened-menu {
+    overflow: hidden;
 }
 .wrapper {
     min-height: 100%;
@@ -28,8 +32,8 @@
     height: 100%;
 }
 .title {
-    font-family: var(---second-family);
+    font-family: var(--second-family);
     font-weight: 900;
     font-size: 42px;
-    color: var(---base-color);
+    color: var(--base-color);
 }
